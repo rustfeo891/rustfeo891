@@ -1,6 +1,6 @@
 +++
 date = '2026-09-30T02:23:02+08:00'
-draft = true
+draft = false
 title = 'How I Develop a C Application That Interact With Flathub Spotify Without Any Third Party Dependency'
 author= "rustfeo891"
 +++
