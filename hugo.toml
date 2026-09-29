@@ -1,0 +1,4 @@
+baseURL = 'https://rustfeo891.github.io'
+locale = 'en-us'
+title = 'rustfeo891'
+theme = 'ananke'

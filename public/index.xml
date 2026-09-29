@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>rustfeo891</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on rustfeo891</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 30 Sep 2026 02:23:02 +0800</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How I Develop a C Application That Interact With Flathub Spotify Without Any Third Party Dependency</title>
+				<link>http://localhost:1313/posts/post1/</link>
+				<pubDate>Wed, 30 Sep 2026 02:23:02 +0800</pubDate>
+				<guid>http://localhost:1313/posts/post1/</guid>
+				<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In this blog I will talk aboout how I develop a c program that can interact with&#xA;flathub spotify with only libc and syscall without any third party dependency&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-work&#34;&gt;How it work&lt;/h2&gt;&#xA;&lt;p&gt;To understand how this work there are few thing that you need to understand&#xA;which is&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;dbus&lt;/li&gt;&#xA;&lt;li&gt;syscall&lt;/li&gt;&#xA;&lt;li&gt;socket&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;To begin with let explain 1. dbus first, a dbus is a ipc communication for different process,&#xA;in total it have two diffferent bus a system bus and a session bus,for the purpose of&#xA;interacting with flathub spotify we only care about the session bus,so what is a&#xA;session bus a session bus is used for the communication between a user process&#xA;to the application process.So let take a look at  how this thing really work by using a&#xA;tool call qdbus ,qdbus is a tool that can show and interact the dbus on your own system&#xA;,we can use qdbus by simply typing qdbus on the command line and it show the&#xA;dbus interface like this&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
